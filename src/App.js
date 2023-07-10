@@ -1,8 +1,9 @@
-import TosoItem from "./components/TodoItem";
+import TosoItem from './components/TodoItem';
+
 function App() {
   return (
     <div className="App">
-      <TosoItem itemProp={'dfgdgf'} />
+      <TosoItem itemProp="dfgdgf" />
     </div>
   );
 }

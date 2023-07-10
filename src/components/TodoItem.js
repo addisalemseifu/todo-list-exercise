@@ -1,8 +1,8 @@
+/* eslint-disable react/prop-types */
 import React, { useState } from 'react';
 import styles from '../styles/TodoItem.module.css';
 
 export default function TodoItem({
-  // eslint-disable-next-line react/prop-types
   itemProp, handleChange, delTodo, setUpdate,
 }) {
   const [editing, setEditing] = useState(false);
